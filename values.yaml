@@ -7,14 +7,14 @@ memory:
   limits: "16Gi"
 serviceType: ClusterIP
 image:
-  Name: lsheiba/tf-jupyter-devel-gpu
+  Name: lsheiba/kl-tensorflow-gpu
   Tag: latest
 persistence:
     enabled: true
     storageClass: standard
     nfs:
       server: 192.168.1.55
-      path: "/kuberlab/mnist"
+      path: "/kuberlab"
     accessMode: ReadWriteMany
     size: 16Gi
 
