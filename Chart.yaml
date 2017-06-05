@@ -1,7 +1,7 @@
 name: tensorflow-python3-gpu
 home: https://github.com/lsheiba/tensorflow-python3-gpu.git
 version: 1.0.0
-description: Tensorflow Jupyter Notebook
+description: Tensorflow Python3 Jupyter Notebook
 sources:
   - https://github.com/lsheiba/tensorflow-python3-gpu.git
 maintainers:
